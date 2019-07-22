@@ -1,12 +1,12 @@
 Usage with Docker compose  
-Start a cluster:  
+*Start a cluster:  
 
 ```docker-compose up -d  ```
 
 
-Add more brokers:  
+*Add more brokers:  
 
 ```docker-compose scale kafka=3```  
-Destroy a cluster:   
+*Destroy a cluster:   
 
 ```docker-compose stop```  
