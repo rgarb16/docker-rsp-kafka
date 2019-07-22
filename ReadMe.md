@@ -6,7 +6,7 @@ Start a cluster:
 
 Add more brokers:  
 
-```docker-compose scale kafka=3```
-Destroy a cluster:  
+```docker-compose scale kafka=3```  
+Destroy a cluster:   
 
-```docker-compose stop```
+```docker-compose stop```  
