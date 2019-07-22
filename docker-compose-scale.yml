@@ -13,6 +13,6 @@ services:
       HOSTNAME_COMMAND: "route -n | awk '/UG[ \t]/{print $$2}'"
       KAFKA_PORT: 9092
       KAFKA_ADVERTISED_PORT: 9092
-      KAFKA_HEAP_OPTS: "-Xmx200M -Xms28M"
+      KAFKA_HEAP_OPTS: "-Xmx200M -Xms128M"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
